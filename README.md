@@ -8,7 +8,7 @@
 </head>
 <body>
  
-  <h1>indoor Plant </h1>
+  <h1>indoor Plant</h1>
  <h2>Peace Lily</h2>
  <p>the peace lily known for its elegant white flower is a popular choice for indoor spaces</p> 
  <p> Price: $15</p>
