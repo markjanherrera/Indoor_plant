@@ -1,113 +1,117 @@
-<DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
-
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invited! Birthday</title>
 
-<meta charset="UTF 8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0;
+        }
 
-<title>Taste of Travel</title>
+        .title-font {
+            font-family: 'Pacifico', cursive;
+        }
 
-<meta name="embark on a culinary adventure with  taste of travel, exploring global flavor recipe.">
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
 
-
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
 </head>
+<body>
 
+<div class="max-w-4xl w-full mx-auto p-4 sm:p-10 bg-white rounded-3xl shadow-2xl transition-all duration-300 transform hover:shadow-blue-300">
+    <header class="text-center mb-10">
+        <p class="text-2xl sm:text-3xl font-light text-black-500 mb-2 title-font">Let's Celebrate!</p>
+        <h1 class="text-5xl sm:text-7xl font-extrabold text-black-700 tracking-tight title-font">
+            🎂 happy birthday to meeeeee
+        </h1>
+        <p class="mt-4 text-gray-600 text-lg sm:text-xl font-medium">Join us for a magical evening to celebrate a major milestone.</p>
+    </header>
+    <div class="mb-10 overflow-hidden rounded-2xl shadow-xl border-4 border-black-400">       
+        
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-center">
+        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
+            <p class="text-3xl mb-2">📅</p>
+            <h2 class="text-xl font-bold text-black-700 mb-1">Date</h2>
+            <p class="text-black-600 font-extrabold text-2xl">Saturday, December 7th, 2024</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
+            <p class="text-3xl mb-2">⏰</p>
+            <h2 class="text-xl font-bold text-black-700 mb-1">Time</h2>
+            <p class="text-black-600 font-extrabold text-2xl">6:00 PM - 10:00 PM</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-xl shadow-lg border-t-4 border-blue-500">
+            <p class="text-3xl mb-2">🏠</p>
+            <h2 class="text-xl font-bold text-black-700 mb-1">Venue</h2>
+            <p class="text-gray-700 text-lg font-medium">The Anabu liwayway homes </p>
+            <p class="text-black-600 font-extrabold text-2xl">Anabu liwayway homes</p>
+        </div>
+    </div>
+    <div class="bg-blue-700 text-white p-8 rounded-xl shadow-xl mb-12">
+        <h2 class="text-3xl font-bold text-center mb-6 text-yellow-300">Your Attendance Matters!</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-4 bg-blue-600 rounded-lg">
+                <p class="text-3xl mb-2">👕</p>
+                <h3 class="font-semibold text-xl mb-1 text-yellow-300">Attire & Gifts</h3>
+                <p class="text-black-100">Dress code is Smart Casual. <strong class="font-bold">No gifts</strong> Your presence is the best gift we could ask for.</p>
+            </div>
+            <div class="p-4 bg-blue-600 rounded-lg">
+                <p class="text-3xl mb-2">📨</p>
+                <h3 class="font-semibold text-xl mb-1 text-yellow-300">RSVP</h3>
+                <p class="text-black-100 mb-2">Kindly confirm your attendance by july 13</p>                  
+            </div>
+            <div class="p-4 bg-blue-600 rounded-lg">
+                <p class="text-3xl mb-2">🙋</p>
+                <h3 class="font-semibold text-xl mb-1 text-yellow-300">Contact Person</h3>
+                <p class="text-black-100">Contact: mark jan herrera</p>
+                <p class="text-xl font-extrabold">09971435799</p>
+            </div>
+        </div>
+    </div>
+    <section class="mb-4">
+        <h2 class="text-3xl font-bold text-blue-700 mb-4 text-center">📍 How to Get to Anabu, Imus, Cavite</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15456.985925345717!2d120.91699709999999!3d14.39805565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d4b46c6422d7%3A0x6e9a7e6d013f9f21!2sAnabu%2C%20Imus%2C%20Cavite!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <p class="text-center text-sm text-gray-500 mt-2">The map shows the general location of Anabu, Imus, Cavite. Specific directions to the hall will be provided upon RSVP.</p>
+    </section>
+    <footer class="text-center pt-8 border-t border-gray-200 mt-8">
+        <p class="text-sm text-gray-500">&copy; 2024 Sofia's Sweet Sixteen. Hope to see you there!</p>
+    </footer>
 
-<h1>Discover the flavor of thailand</h1>
+</div>
 
-<h2>Tom Yum Goong: A spicy thai delight</h2>
-
-<p>describing Tom Yum Goong, emphasizing its
-
-bold flavors and aromatic spices: "Tom Yum Goong is a classic Thai soup
-
-renowned for its bold flavors and aromatic spices. This hot and sour soup
-
-features a tantalizing blend of lemongrass, galangal, and kaffir lime
-
-leaves, combined with succulent shrimp.</p>
-
-
-<h3>Ingridients</h3>
-
-<ul><li>
-
-    <strong>Lemongrass:</strong>2 stalks</li><li>
-
-    <strong>thai basil:</strong>1 cup</li><li>
-
-    <strong>khaffir lime leaves:</strong>3 leaves</li><li>
-
-    <strong>shrimp:</strong>500g</li></ul>
-
-
-<blockquote>Chef Somchai, a
-
-Thai cuisine expert, about the essence of Tom Yum Goong: "The key to a
-
-delicious Tom Yum Goong lies in the balance of flavors – sweet, sour,
-
-salty, and spicy."</blockquote>
-
-
-<h3>Preparation</h3>
-
-<strong>1.<em>Simmer</em> the broth for 10 minutes.</strong><br>
-
-<strong>2.Add lemongrass, galangal, and kaffir lime leaves.</strong><br>
-
-<strong>3.Stir in shrimp and <em>cook</em> until pink.</strong><br>
-
-<strong>4.<em>Season</em> with fish sauce, lime juice, and chili paste.</strong><br>
-
-<strong>5.<em>Garnish</em> with Thai basil and serve hot.</strong>
-
-<h3>Cooking tips</h3><p>
-
-<sup>1/4</sup>cup of fish sauce adds authentic Thai flavor.<br>
-
-<sub>1</sub>tablespoon of chili paste gives the soup its signature heat.<br></p>
-
-<br>
-<img src="https://edube.org/uploads/media/default/0001/04/thai-soup.jpg" alt="Tom Yum Goong">
-</p>
-
-<table border="1"
-cellpadding="5"
-cellspacing="0"><caption><strong>recipe details</strong></caption>
-<thread>
-<tr>
-<th>Ingridients</th>
-<th>quantity</th>
-</tr>
-</thread>
-<tbody>
-
-<tr>
-<td>Lemongrass</td>
-<td>2 stalks</td>
-</tr>
-<tr>
-<td>Thai basil</td>
-<td>1 cup</td>
-</tr>
-<tr>
-<td>Kaffir Lime Leaves</td>
-<td>3 leaves</td>
-</tr>
-<tr>
-<td>Shrimp</td>
-<td>500g</td>
-</tr>
-<tr>
-    <td colspan="2">preperation time: 20 minutes</td>
-</tr>
-<tr>
-    <td colspan="2"><strong>Serving Suggestion:</strong>serve with steamed or jasmine tea.</td>
-</tr>
-</tbody>
-</table>
 </body>
 </html>
